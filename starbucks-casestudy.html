@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Starbucks Rewards Redesign case study — a product design project focused on loyalty clarity, engagement, and redemption." />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Starbucks Rewards Redesign — Case Study" />
+  <meta property="og:description" content="A case study about redesigning Starbucks Rewards to improve understanding, engagement, and redemption." />
+  <meta property="og:image" content="assets/projects/starbucks-rewards-cover.jpg" />
+
+  <title>Starbucks Rewards Redesign — Case Study</title>
+
+  <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body class="page-case">
+
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="header-logo" aria-label="Home">[TU NOMBRE]</a>
+
+        <nav class="site-nav" role="navigation" aria-label="Main navigation">
+          <ul class="nav-links" role="list">
+            <li><a href="work.html" class="nav-link active">Work</a></li>
+            <li><a href="resume.html" class="nav-link">Resume</a></li>
+          </ul>
+          <a href="contact.html" class="nav-cta">Contact</a>
+
+          <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+      </div>
+    </div>
+
+    <nav class="mobile-nav" id="mobile-nav" role="navigation" aria-label="Mobile navigation">
+      <a href="work.html" class="nav-link">Work</a>
+      <a href="resume.html" class="nav-link">Resume</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+  <!-- ── HERO ──────────────────────────────────────────────── -->
+  <section class="cs-hero">
+    <div class="container">
+
+      <nav class="case-hero-breadcrumb animate-on-scroll" aria-label="Breadcrumb">
+        <a href="work.html">Work</a>
+        <span aria-hidden="true">›</span>
+        <span>Starbucks Rewards</span>
+      </nav>
+
+      <div class="cs-hero-layout">
+        <div class="cs-hero-text">
+          <span class="section-label animate-on-scroll delay-1">Product Design · 2023–2024</span>
+          <h1 class="cs-hero-title animate-on-scroll delay-2">
+            Redesigning the<br>
+            Starbucks <em>Rewards</em><br>
+            experience
+          </h1>
+          <p class="cs-hero-intro animate-on-scroll delay-3">
+            A full redesign of how 35 million members earn, discover, and redeem rewards — transforming a fragmented loyalty system into a clear, motivating, and deeply personal experience.
+          </p>
+        </div>
+
+        <dl class="cs-meta animate-on-scroll delay-3">
+          <div class="cs-meta-item">
+            <dt>Role</dt>
+            <dd>Lead Product Designer</dd>
+          </div>
+          <div class="cs-meta-item">
+            <dt>Scope</dt>
+            <dd>iOS · Android</dd>
+          </div>
+          <div class="cs-meta-item">
+            <dt>Duration</dt>
+            <dd>9 months</dd>
+          </div>
+          <div class="cs-meta-item">
+            <dt>Status</dt>
+            <dd>Shipped · Live</dd>
+          </div>
+        </dl>
+      </div>
+
+    </div>
+
+    <!-- Full-bleed cover image -->
+    <div class="cs-cover animate-on-scroll">
+      <!-- REPLACE: cover image -->
+      <img src="assets/projects/starbucks-rewards-cover.jpg" alt="Starbucks Rewards redesign — cover" />
+    </div>
+  </section>
+
+
+  <!-- ── OVERVIEW ──────────────────────────────────────────── -->
+  <section class="cs-section">
+    <div class="container container--narrow">
+
+      <span class="section-label animate-on-scroll">Overview</span>
+
+      <h2 class="cs-section-heading animate-on-scroll">
+        Loyalty built over a decade.<br>
+        Clarity lost along the way.
+      </h2>
+
+      <p class="case-text animate-on-scroll">
+        Starbucks Rewards is one of the most successful loyalty programs in retail — yet a decade of iteration had left the app experience fragmented. Reward tiers were opaque, redemption paths were buried, and the Stars-to-value mapping confused even power users.
+      </p>
+      <p class="case-text animate-on-scroll">
+        Members were earning Stars they didn't understand, skipping rewards they'd never discovered, and churning at key loyalty milestones. The business impact was measurable: redemption rates sat 18 points below category benchmarks. <strong>The product wasn't broken. It was invisible.</strong>
+      </p>
+
+      <div class="callout animate-on-scroll">
+        <p class="callout-text">"How do I know what my Stars are actually worth? I just see a number."</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ── THE CHALLENGE ─────────────────────────────────────── -->
+  <section class="cs-section cs-section--alt">
+    <div class="container">
+
+      <div class="cs-two-col">
+
+        <div class="cs-two-col-text">
+          <span class="section-label animate-on-scroll">The Challenge</span>
+          <h2 class="cs-section-heading animate-on-scroll">Five fractures in the experience</h2>
+          <p class="case-text animate-on-scroll">
+            Before a single screen was sketched, we audited every touchpoint in the existing rewards journey — from app first-open through post-transaction. Five systemic problems emerged, each compounding the others.
+          </p>
+        </div>
+
+        <ul class="cs-friction-list animate-on-scroll">
+          <li class="cs-friction-item">
+            <span class="cs-friction-num">01</span>
+            <div>
+              <strong>Invisible progress.</strong> The Star balance was shown, but without context. Members couldn't answer "how many more do I need?" without mental arithmetic against a chart buried in Settings.
+            </div>
+          </li>
+          <li class="cs-friction-item">
+            <span class="cs-friction-num">02</span>
+            <div>
+              <strong>Redemption graveyard.</strong> The reward catalogue lived three taps deep. 62% of sessions ended without a single reward impression.
+            </div>
+          </li>
+          <li class="cs-friction-item">
+            <span class="cs-friction-num">03</span>
+            <div>
+              <strong>Tier opacity.</strong> Green vs. Gold was communicated by a card colour change. The benefits delta was never surfaced — members couldn't see why Gold was worth pursuing.
+            </div>
+          </li>
+          <li class="cs-friction-item">
+            <span class="cs-friction-num">04</span>
+            <div>
+              <strong>Contextual blindness.</strong> Notifications said "You have 150 Stars!" — but gave no guidance on what that unlocked or when those Stars would expire.
+            </div>
+          </li>
+          <li class="cs-friction-item">
+            <span class="cs-friction-num">05</span>
+            <div>
+              <strong>Personalisation void.</strong> Every member saw the same catalogue regardless of order history. A cold brew devotee was served Frappuccino rewards.
+            </div>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+    <!-- Full-width image: before state -->
+    <div class="cs-image-full animate-on-scroll">
+      <!-- REPLACE: before/after comparison image -->
+      <img src="assets/projects/starbucks-rewards-before-after.jpg" alt="Before and after comparison of the Rewards experience" />
+      <p class="case-image-caption">Before / After — Rewards home screen</p>
+    </div>
+
+  </section>
+
+
+  <!-- ── THE APPROACH ──────────────────────────────────────── -->
+  <section class="cs-section">
+    <div class="container container--narrow">
+
+      <span class="section-label animate-on-scroll">The Approach</span>
+      <h2 class="cs-section-heading animate-on-scroll">Research-led. Principle-driven.</h2>
+
+      <p class="case-text animate-on-scroll">
+        We ran 24 moderated user interviews across four member segments, combined with 12 months of session analytics and a competitive audit of eight loyalty programs — Dunkin', Delta SkyMiles, Target Circle, and others.
+      </p>
+      <p class="case-text animate-on-scroll">
+        Three recurring themes shaped everything that followed.
+      </p>
+
+    </div>
+
+    <div class="container">
+      <ol class="cs-principles animate-on-scroll">
+        <li class="cs-principle-item">
+          <span class="cs-principle-num">1</span>
+          <div>
+            <h3 class="cs-principle-title">Lead with progress, not balance</h3>
+            <p class="case-text">Replace the Stars counter with a dynamic progress arc toward the member's next achievable reward. Context transforms a number into motivation.</p>
+          </div>
+        </li>
+        <li class="cs-principle-item">
+          <span class="cs-principle-num">2</span>
+          <div>
+            <h3 class="cs-principle-title">Surface rewards in the flow</h3>
+            <p class="case-text">Integrate relevant reward suggestions into the order confirmation, home feed, and pre-checkout — not just a standalone catalogue page.</p>
+          </div>
+        </li>
+        <li class="cs-principle-item">
+          <span class="cs-principle-num">3</span>
+          <div>
+            <h3 class="cs-principle-title">Personalise ruthlessly</h3>
+            <p class="case-text">Use order history and purchase signals to rank the catalogue. A cold brew member sees cold brew rewards first, always.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+
+  </section>
+
+
+  <!-- ── KEY EXPERIENCE AREAS ──────────────────────────────── -->
+  <section class="cs-section cs-section--alt">
+    <div class="container container--narrow">
+      <span class="section-label animate-on-scroll">Key Experience Areas</span>
+      <h2 class="cs-section-heading animate-on-scroll">Where the design landed</h2>
+    </div>
+
+    <!-- ── Surface 01: Rewards Redesign -->
+    <div class="cs-surface">
+      <div class="container">
+        <div class="cs-surface-header animate-on-scroll">
+          <span class="cs-surface-num">01</span>
+          <div>
+            <h3 class="cs-surface-title">Rewards Redesign</h3>
+            <p class="case-text">The loyalty home was rebuilt around a single question members constantly asked: <em>"What can I get right now?"</em> A dynamic progress arc replaced the static counter, and a personalised reward queue surfaced the three most relevant rewards for that member, at that moment.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Full-bleed image -->
+      <div class="cs-image-full animate-on-scroll">
+        <!-- REPLACE: rewards redesign image -->
+        <img src="assets/projects/starbucks-rewards-redesign.jpg" alt="Starbucks Rewards redesign — loyalty home" />
+      </div>
+
+      <div class="container container--narrow">
+        <p class="cs-rationale animate-on-scroll">
+          <strong>Decision rationale.</strong> Competitive analysis confirmed that best-in-class loyalty programs (Delta, Marriott) lead with progress, not balance. Members responded 3× more positively to "32 Stars away from your next reward" than to "You have 268 Stars" in A/B testing.
+        </p>
+      </div>
+    </div>
+
+    <!-- ── Surface 02: Home Redesign -->
+    <div class="cs-surface">
+      <div class="container">
+        <div class="cs-surface-header animate-on-scroll">
+          <span class="cs-surface-num">02</span>
+          <div>
+            <h3 class="cs-surface-title">Home Redesign</h3>
+            <p class="case-text">The app home was redesigned to act as a contextual daily companion — morning coffee mode, afternoon pickup prompts, and reward nudges timed to each member's order patterns. The loyalty layer was woven into the home rather than siloed in a separate tab.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Split image — 2-up -->
+      <div class="cs-image-split animate-on-scroll">
+        <!-- REPLACE: home redesign image left -->
+        <img src="assets/projects/starbucks-home-before.jpg" alt="Starbucks Home — before" />
+        <!-- REPLACE: home redesign image right -->
+        <img src="assets/projects/starbucks-home-after.jpg" alt="Starbucks Home — after" />
+      </div>
+      <p class="case-image-caption container animate-on-scroll">Home screen — Before / After</p>
+
+      <div class="container container--narrow">
+        <p class="cs-rationale animate-on-scroll">
+          <strong>Decision rationale.</strong> Session data showed that members who saw a loyalty nudge on the home screen were 2.4× more likely to visit the rewards catalogue in the same session. Integrating the two surfaces removed the need for members to self-navigate to an awareness they didn't know to seek.
+        </p>
+      </div>
+    </div>
+
+    <!-- ── Surface 03: PDP Redesign -->
+    <div class="cs-surface">
+      <div class="container">
+        <div class="cs-surface-header animate-on-scroll">
+          <span class="cs-surface-num">03</span>
+          <div>
+            <h3 class="cs-surface-title">PDP Redesign</h3>
+            <p class="case-text">The product detail page was redesigned to make the Stars-earning moment visible and motivating at the point of decision. Each product now shows how many Stars it earns, how that contributes to the member's active progress, and whether a matching reward exists — all without disrupting the ordering flow.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Full-bleed image -->
+      <div class="cs-image-full animate-on-scroll">
+        <!-- REPLACE: PDP redesign image -->
+        <img src="assets/projects/starbucks-pdp-redesign.jpg" alt="Starbucks PDP redesign" />
+      </div>
+
+      <div class="container container--narrow">
+        <p class="cs-rationale animate-on-scroll">
+          <strong>Decision rationale.</strong> The PDP is the highest-traffic page in the app. Surfacing Stars context here required zero additional navigation — and gave every transaction an emotional layer it previously lacked.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ── IMPACT ─────────────────────────────────────────────── -->
+  <section class="cs-section">
+    <div class="container container--narrow">
+      <span class="section-label animate-on-scroll">Impact</span>
+      <h2 class="cs-section-heading animate-on-scroll">Results, six months post-launch</h2>
+      <p class="case-text animate-on-scroll">
+        The redesign shipped in phases across iOS and Android between September and December 2023. Six-month post-launch cohort data confirmed movement on every north-star metric — with some outcomes exceeding projections.
+      </p>
+    </div>
+
+    <!-- Metrics — reuses existing .metrics-grid system -->
+    <div class="container container--narrow">
+      <div class="metrics-grid animate-on-scroll">
+        <div class="metric-item">
+          <p class="metric-value">+26<em>%</em></p>
+          <p class="metric-label">Reward redemption rate</p>
+          <p class="metric-note">vs. 24% KPI target</p>
+        </div>
+        <div class="metric-item">
+          <p class="metric-value">+21<em>%</em></p>
+          <p class="metric-label">30-day retention</p>
+          <p class="metric-note">Milestone moments drove largest lift</p>
+        </div>
+        <div class="metric-item">
+          <p class="metric-value">−34<em>%</em></p>
+          <p class="metric-label">Loyalty support contacts</p>
+          <p class="metric-note">Clarity reduced "how do I redeem?" tickets</p>
+        </div>
+        <div class="metric-item">
+          <p class="metric-value">4.7<em>/5</em></p>
+          <p class="metric-label">Experience CSAT</p>
+          <p class="metric-note">Up from 3.7 baseline (n=14,000+)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container container--narrow">
+      <p class="case-text animate-on-scroll" style="margin-top: var(--space-10);">
+        Beyond the numbers, qualitative feedback surfaced a consistent theme: members said the app felt like it was designed <em>for them</em>, not for the program. The personalised reward queue was the single most-mentioned feature in post-launch CSAT open responses.
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- ── REFLECTION ─────────────────────────────────────────── -->
+  <section class="cs-section cs-section--alt">
+    <div class="container container--narrow">
+
+      <span class="section-label animate-on-scroll">Reflection</span>
+      <h2 class="cs-section-heading animate-on-scroll">What I'd carry forward</h2>
+
+      <div class="cs-learnings animate-on-scroll">
+
+        <div class="cs-learning-item">
+          <span class="cs-learning-num">1</span>
+          <div>
+            <h3 class="cs-learning-title">Clarity over cleverness</h3>
+            <p class="case-text">Every time we introduced a "smart" interaction pattern in testing, users asked for a simpler version. The biggest redemption lifts came from removing friction, not adding delight layers.</p>
+          </div>
+        </div>
+
+        <div class="cs-learning-item">
+          <span class="cs-learning-num">2</span>
+          <div>
+            <h3 class="cs-learning-title">Fight for the emotional moments</h3>
+            <p class="case-text">The Stars celebration animation was a 2-week dev investment the team initially de-prioritised. It became the most-mentioned feature in CSAT open responses. Emotional beats compound; rational ones don't.</p>
+          </div>
+        </div>
+
+        <div class="cs-learning-item">
+          <span class="cs-learning-num">3</span>
+          <div>
+            <h3 class="cs-learning-title">Design for the confused majority</h3>
+            <p class="case-text">Power users were the loudest voices in research. But the biggest business value came from fixing the experience for confused Aspirationals and passive Ritualists — who together represented 71% of the member base.</p>
+          </div>
+        </div>
+
+        <div class="cs-learning-item">
+          <span class="cs-learning-num">4</span>
+          <div>
+            <h3 class="cs-learning-title">What I'd improve next</h3>
+            <p class="case-text">Deeper personalisation of the tier communication for the Gold → Platinum path, and a native nudge system that surfaces expiring Stars as a celebration moment rather than a system warning.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ── RELATED PROJECTS ───────────────────────────────────── -->
+  <section class="cs-section">
+    <div class="container">
+
+      <div class="cs-related-header animate-on-scroll">
+        <span class="section-label">Related Projects</span>
+        <a href="work.html" class="btn btn--ghost">
+          View all work <span class="btn-arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <div class="cs-related-grid animate-on-scroll">
+
+        <a href="starbucks-home.html" class="cs-related-card">
+          <div class="cs-related-card-image">
+            <!-- REPLACE: home redesign thumbnail -->
+            <img src="assets/projects/starbucks-home-thumb.jpg" alt="Starbucks Home Redesign" />
+          </div>
+          <div class="cs-related-card-content">
+            <div class="case-tags">
+              <span class="tag">Mobile</span>
+              <span class="tag">2023</span>
+            </div>
+            <h3 class="cs-related-card-title">Starbucks Home Redesign</h3>
+            <p class="cs-related-card-desc">Rebuilding the app home as a contextual daily companion — surfacing loyalty, ordering, and discovery in a single coherent surface.</p>
+            <span class="btn btn--ghost" aria-hidden="true">
+              View case study <span class="btn-arrow">→</span>
+            </span>
+          </div>
+        </a>
+
+        <a href="starbucks-pdp.html" class="cs-related-card">
+          <div class="cs-related-card-image">
+            <!-- REPLACE: PDP redesign thumbnail -->
+            <img src="assets/projects/starbucks-pdp-thumb.jpg" alt="Starbucks PDP Redesign" />
+          </div>
+          <div class="cs-related-card-content">
+            <div class="case-tags">
+              <span class="tag">Mobile</span>
+              <span class="tag">2023</span>
+            </div>
+            <h3 class="cs-related-card-title">Starbucks PDP Redesign</h3>
+            <p class="cs-related-card-desc">Making the Stars-earning moment visible and motivating at the point of product decision — without disrupting the ordering flow.</p>
+            <span class="btn btn--ghost" aria-hidden="true">
+              View case study <span class="btn-arrow">→</span>
+            </span>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <p class="footer-brand">[TU NOMBRE]</p>
+          <p class="footer-tagline">Senior Product Designer</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="work.html" class="footer-link">Work</a>
+          <a href="resume.html" class="footer-link">Resume</a>
+          <a href="contact.html" class="footer-link">Contact</a>
+          <a href="https://www.linkedin.com/in/miguel-vera-salazar-ux-product/" class="footer-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://behance.net/[TU-BEHANCE]" class="footer-link" target="_blank" rel="noopener noreferrer">Behance</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; <span id="current-year"></span> [TU NOMBRE]. All rights reserved.</p>
+        <a href="mailto:[TU EMAIL]" class="footer-copy" style="color: rgba(247,245,242,0.5); transition: color 0.3s ease;">[TU EMAIL]</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

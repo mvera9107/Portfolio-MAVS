@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="DS Multimarca — Case Study. Sistema de diseño flexible y escalable para múltiples marcas." />
+  <title>DS Multimarca — Miguel Vera</title>
+  <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body class="page-case">
+
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+        <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span><span></span><span></span>
+        </button>
+        <a href="index.html" class="header-logo" aria-label="Inicio">
+          <img src="assets/logo/personal-logo.png" alt="" onerror="this.style.display='none';" />
+          Miguel Vera
+        </a>
+        <nav class="site-nav" role="navigation" aria-label="Navegación principal">
+          <ul class="nav-links" role="list">
+            <li><a href="index.html#proyectos" class="nav-link active">Proyectos</a></li>
+            <li><a href="index.html#sobre-mi" class="nav-link">Sobre mí</a></li>
+          </ul>
+          <a href="mailto:m.vera9107@gmail.com" class="nav-cta">Contacto</a>
+        </nav>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" role="navigation" aria-label="Navegación móvil">
+      <a href="index.html#proyectos" class="nav-link">Proyectos</a>
+      <a href="index.html#sobre-mi" class="nav-link">Sobre mí</a>
+      <a href="mailto:m.vera9107@gmail.com" class="nav-link">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="cs-hero">
+      <div class="container">
+
+        <nav class="case-hero-breadcrumb animate-on-scroll" aria-label="Breadcrumb">
+          <a href="index.html">Inicio</a>
+          <span aria-hidden="true">›</span>
+          <a href="index.html#proyectos">Proyectos</a>
+          <span aria-hidden="true">›</span>
+          <span>DS Multimarca</span>
+        </nav>
+
+        <div class="cs-hero-layout">
+          <div class="cs-hero-text">
+            <span class="section-label animate-on-scroll delay-1">Design System &middot; Escalable</span>
+            <h1 class="cs-hero-title animate-on-scroll delay-2">
+              DS <em>Multimarca</em>
+            </h1>
+            <p class="cs-hero-intro animate-on-scroll delay-3">
+              Sistema de diseño flexible para múltiples marcas y plataformas. Foundations, tokens, componentes y documentación orientados a equipos de producto y desarrollo que necesitan escalar sin perder coherencia visual.
+            </p>
+          </div>
+
+          <dl class="cs-meta animate-on-scroll delay-3">
+            <div class="cs-meta-item">
+              <dt>Rol</dt>
+              <dd>Product Designer Sr</dd>
+            </div>
+            <div class="cs-meta-item">
+              <dt>Categoría</dt>
+              <dd>App y Web</dd>
+            </div>
+            <div class="cs-meta-item">
+              <dt>Alcance</dt>
+              <dd>Multimarca · Multiplataforma</dd>
+            </div>
+            <div class="cs-meta-item">
+              <dt>Año</dt>
+              <dd>2025</dd>
+            </div>
+          </dl>
+        </div>
+
+      </div>
+
+      <div class="cs-cover animate-on-scroll">
+        <img
+          src="assets/projects/ds-multimarca-cover.png"
+          alt="DS Multimarca — portada del caso"
+          onerror="this.style.display='none';"
+        />
+      </div>
+    </section>
+
+
+    <!-- CONTEXTO -->
+    <section class="cs-section">
+      <div class="container container--narrow">
+        <span class="section-label animate-on-scroll">Contexto</span>
+        <h2 class="cs-section-heading animate-on-scroll">Un sistema diseñado para escalar sin depender de una sola marca.</h2>
+        <p class="case-text animate-on-scroll">
+          Los design systems de marca única tienen una limitación estructural: cada decisión visual está atada a los valores de esa marca. Un sistema multimarca exige una capa de abstracción mayor — tokens neutrales, componentes agnósticos y una lógica de theming que permita que cada marca exprese su identidad sin romper la consistencia del sistema.
+        </p>
+        <p class="case-text animate-on-scroll">
+          Este proyecto nació de la necesidad de escalar el trabajo de diseño hacia múltiples marcas y plataformas sin duplicar esfuerzo ni perder coherencia. El sistema fue diseñado para ser consumido por equipos de producto y desarrollo, con documentación que facilita la adopción y reduces la fricción en el handoff.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- EL RETO -->
+    <section class="cs-section cs-section--alt">
+      <div class="container">
+        <div class="cs-two-col">
+          <div class="cs-two-col-text">
+            <span class="section-label animate-on-scroll">El reto</span>
+            <h2 class="cs-section-heading animate-on-scroll">Flexibilidad sin perder coherencia</h2>
+            <p class="case-text animate-on-scroll">
+              Antes de este sistema, cada marca operaba con sus propias decisiones visuales sin una base compartida. Los equipos duplicaban trabajo, el handoff era inconsistente y agregar una nueva marca implicaba rehacer todo desde cero. El reto fue construir una capa de abstracción que permitiera la flexibilidad de marca sin sacrificar la estabilidad del sistema.
+            </p>
+          </div>
+          <ul class="cs-friction-list animate-on-scroll">
+            <li class="cs-friction-item">
+              <span class="cs-friction-num">01</span>
+              <div><strong>Tokens acoplados a una sola marca.</strong> Los valores de color, tipografía y espaciado estaban definidos sin una capa de abstracción, lo que hacía imposible reutilizarlos en otro contexto de marca sin modificar el sistema base.</div>
+            </li>
+            <li class="cs-friction-item">
+              <span class="cs-friction-num">02</span>
+              <div><strong>Inconsistencia entre plataformas.</strong> Los mismos componentes se comportaban de manera diferente en iOS, Android y web por falta de especificaciones compartidas y documentación centralizada.</div>
+            </li>
+            <li class="cs-friction-item">
+              <span class="cs-friction-num">03</span>
+              <div><strong>Adopción lenta y dependencia del diseñador.</strong> Sin documentación clara ni una estructura de tokens comprensible para desarrollo, la adopción dependía de la comunicación directa, lo que generaba cuellos de botella y deuda de consistencia.</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ENFOQUE -->
+    <section class="cs-section">
+      <div class="container container--narrow">
+        <span class="section-label animate-on-scroll">Enfoque</span>
+        <h2 class="cs-section-heading animate-on-scroll">Cómo se estructuró el sistema</h2>
+        <p class="case-text animate-on-scroll">El sistema se estructuró en tres capas interdependientes: foundations y tokens como base de theming, componentes agnósticos de marca reutilizables en múltiples contextos, y documentación orientada a la adopción. Desarrollo participó desde la fase de tokens para garantizar que la nomenclatura y la estructura fueran implementables sin traducción adicional.</p>
+      </div>
+
+      <div class="container">
+        <ol class="cs-principles animate-on-scroll">
+          <li class="cs-principle-item">
+            <span class="cs-principle-num">1</span>
+            <div>
+              <h3 class="cs-principle-title">Foundations &amp; Tokens</h3>
+              <p class="case-text">Se definieron tokens en dos niveles: tokens primitivos (valores de color, tipografía, espaciado y radios) y tokens semánticos (roles como <em>color-primary</em>, <em>color-surface</em>, <em>color-on-primary</em>). Este sistema de doble capa permite que cada marca sobreescriba únicamente los tokens semánticos sin alterar la estructura del sistema.</p>
+            </div>
+          </li>
+          <li class="cs-principle-item">
+            <span class="cs-principle-num">2</span>
+            <div>
+              <h3 class="cs-principle-title">Componentes</h3>
+              <p class="case-text">Los componentes se construyeron referenciando solo tokens semánticos, lo que los hace agnósticos de marca por diseño. La priorización de componentes partió de un inventario de frecuencia de uso, priorizando los bloques más comunes en flujos de producto: botones, inputs, cards, navegación y estados de feedback.</p>
+            </div>
+          </li>
+          <li class="cs-principle-item">
+            <span class="cs-principle-num">3</span>
+            <div>
+              <h3 class="cs-principle-title">Adopción</h3>
+              <p class="case-text">La adopción se habilitó a través de documentación contextual dentro del sistema de diseño: guías de uso por componente, ejemplos de theming por marca, y notas de handoff para desarrollo. El objetivo fue que el sistema fuera autoexplicativo sin depender de la intervención directa del diseñador.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+
+    <!-- SCREENSHOTS / ENTREGABLES -->
+    <section class="cs-section cs-section--alt">
+      <div class="container container--narrow">
+        <span class="section-label animate-on-scroll">Entregables</span>
+        <h2 class="cs-section-heading animate-on-scroll">Artefactos del sistema</h2>
+        <p class="case-text animate-on-scroll">
+          Los entregables del sistema incluyen librerías de componentes en Figma con theming por marca, documentación de tokens en formato exportable para desarrollo, y guías de handoff para cada tipo de componente. Las capturas del sistema están disponibles próximamente.
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="placeholder-block animate-on-scroll">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          Librería de componentes — disponible próximamente
+        </div>
+        <div class="placeholder-block animate-on-scroll">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          Tokens y foundations — disponible próximamente
+        </div>
+      </div>
+    </section>
+
+
+    <!-- IMPACTO -->
+    <section class="cs-section">
+      <div class="container container--narrow">
+        <span class="section-label animate-on-scroll">Impacto</span>
+        <h2 class="cs-section-heading animate-on-scroll">Resultados</h2>
+        <p class="case-text animate-on-scroll">El sistema permitió reducir el trabajo duplicado entre marcas y mejorar la consistencia visual en producción. La adopción por parte de los equipos de desarrollo se midió a partir de la proporción de componentes del sistema usados vs. componentes ad hoc en los proyectos.</p>
+
+        <div class="confidentiality-block animate-on-scroll">
+          <p class="confidentiality-label">Confidencialidad</p>
+          <p class="confidentiality-text">Por confidencialidad, los resultados cuantitativos y métricas específicas no se muestran en este portafolio. El caso se enfoca en el proceso, las decisiones de diseño y las métricas que se deberían observar para evaluar impacto.</p>
+          <div class="metrics-observed">
+            <p class="metrics-observed-label">Métricas a observar</p>
+            <div class="metric-observe-item">
+              <span class="metric-observe-dot" aria-hidden="true"></span>
+              <p class="metric-observe-text">Tasa de adopción de componentes del sistema vs. componentes ad hoc en proyectos activos.</p>
+            </div>
+            <div class="metric-observe-item">
+              <span class="metric-observe-dot" aria-hidden="true"></span>
+              <p class="metric-observe-text">Reutilización de patrones entre marcas — número de componentes compartidos sin modificación.</p>
+            </div>
+            <div class="metric-observe-item">
+              <span class="metric-observe-dot" aria-hidden="true"></span>
+              <p class="metric-observe-text">Reducción de inconsistencias visuales reportadas en revisiones de QA.</p>
+            </div>
+            <div class="metric-observe-item">
+              <span class="metric-observe-dot" aria-hidden="true"></span>
+              <p class="metric-observe-text">Eficiencia en handoff — tiempo entre entrega de diseño e implementación de componentes nuevos.</p>
+            </div>
+            <div class="metric-observe-item">
+              <span class="metric-observe-dot" aria-hidden="true"></span>
+              <p class="metric-observe-text">Consistencia visual entre marcas medida en auditorías periódicas del sistema.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- APRENDIZAJES -->
+    <section class="cs-section cs-section--alt">
+      <div class="container container--narrow">
+        <span class="section-label animate-on-scroll">Reflexión</span>
+        <h2 class="cs-section-heading animate-on-scroll">Lo que me llevaría a futuro</h2>
+        <div class="cs-learnings animate-on-scroll">
+          <div class="cs-learning-item">
+            <span class="cs-learning-num">1</span>
+            <div>
+              <h3 class="cs-learning-title">Los tokens son contratos entre diseño y desarrollo</h3>
+              <p class="case-text">La nomenclatura de los tokens no es un detalle técnico: es el lenguaje compartido entre diseño e implementación. Tokens mal nombrados o inconsistentes generan deuda desde el primer handoff. Involucrar a desarrollo en la definición de la estructura de tokens desde el inicio es la diferencia entre un sistema adoptado y uno ignorado.</p>
+            </div>
+          </div>
+          <div class="cs-learning-item">
+            <span class="cs-learning-num">2</span>
+            <div>
+              <h3 class="cs-learning-title">La adopción requiere más atención que la construcción</h3>
+              <p class="case-text">Construir el sistema es solo la mitad del trabajo. La adopción real depende de documentación clara, ejemplos de uso contextual y reducir al mínimo la fricción para el equipo que lo consume. Un sistema que nadie usa no resuelve ningún problema, sin importar qué tan bien esté estructurado.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- NAVEGACIÓN -->
+    <section class="cs-section">
+      <div class="container">
+        <div class="case-nav">
+          <a href="case-nueva-home.html" class="case-nav-item">
+            <p class="case-nav-direction">&larr; Anterior</p>
+            <p class="case-nav-title">Nueva Home</p>
+          </a>
+          <a href="case-research-2024.html" class="case-nav-item case-nav-item--next">
+            <p class="case-nav-direction">Siguiente &rarr;</p>
+            <p class="case-nav-title">Investigación estratégica 2024</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <p class="footer-brand">Miguel Vera</p>
+          <p class="footer-tagline">Product Designer Senior</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="index.html#proyectos" class="footer-link">Proyectos</a>
+          <a href="index.html#sobre-mi" class="footer-link">Sobre mí</a>
+          <a href="mailto:m.vera9107@gmail.com" class="footer-link">m.vera9107@gmail.com</a>
+          <a href="https://www.linkedin.com/in/miguel-vera-salazar-ux-product/" class="footer-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; <span id="current-year"></span> Miguel Vera. Todos los derechos reservados.</p>
+        <a href="mailto:m.vera9107@gmail.com" class="footer-copy" style="color:rgba(247,245,242,0.5);">m.vera9107@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

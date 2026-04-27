@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pick Up — Case Study. Diseño del flujo de retiro en tienda para pedidos móviles." />
+  <title>Pick Up — Miguel Vera</title>
+  <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="mobile-showcase.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body class="page-case">
+
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+        <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span><span></span><span></span>
+        </button>
+        <a href="index.html" class="header-logo" aria-label="Inicio">
+          <img src="assets/logo/personal-logo.png" alt="" onerror="this.style.display='none';" />
+          Miguel Vera
+        </a>
+        <nav class="site-nav" role="navigation" aria-label="Navegación principal">
+          <ul class="nav-links" role="list">
+            <li><a href="index.html#proyectos" class="nav-link active">Proyectos</a></li>
+            <li><a href="index.html#sobre-mi" class="nav-link">Sobre mí</a></li>
+          </ul>
+          <a href="mailto:m.vera9107@gmail.com" class="nav-cta">Contacto</a>
+        </nav>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" role="navigation" aria-label="Navegación móvil">
+      <a href="index.html#proyectos" class="nav-link">Proyectos</a>
+      <a href="index.html#sobre-mi" class="nav-link">Sobre mí</a>
+      <a href="mailto:m.vera9107@gmail.com" class="nav-link">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="cs-hero">
+      <div class="container">
+
+        <nav class="case-hero-breadcrumb animate-on-scroll" aria-label="Breadcrumb">
+          <a href="index.html">Inicio</a>
+          <span aria-hidden="true">›</span>
+          <a href="index.html#proyectos">Proyectos</a>
+          <span aria-hidden="true">›</span>
+          <span>Pick Up</span>
+        </nav>
+
+        <div class="cs-hero-layout">
+          <div class="cs-hero-text">
+            <span class="section-label animate-on-scroll delay-1">App y Web &middot; E-commerce</span>
+            <h1 class="cs-hero-title animate-on-scroll delay-2">
+              Pick Up
+            </h1>
+            <p class="cs-hero-intro animate-on-scroll delay-3">
+              Diseño del flujo de retiro en tienda para pedidos móviles. Desde la selección de tienda y configuración del carrito hasta la confirmación y seguimiento del pedido.
+            </p>
+          </div>
+
+          <dl class="cs-meta animate-on-scroll delay-3">
+            <div class="cs-meta-item">
+              <dt>Rol</dt>
+              <dd>Product Designer Sr</dd>
+            </div>
+            <div class="cs-meta-item">
+              <dt>Categoría</dt>
+              <dd>App y Web</dd>
+            </div>
+            <div class="cs-meta-item">
+              <dt>Plataforma</dt>
+              <dd>iOS · Android</dd>
+            </div>
+            <div class="cs-meta-item">
+              <dt>Año</dt>
+              <dd>2025</dd>
+            </div>
+          </dl>
+        </div>
+
+      </div>
+
+      <div class="cs-cover animate-on-scroll">
+        <img
+          src="assets/projects/pickup-cover.png"
+          alt="Pick Up — portada del caso"
+          onerror="this.style.display='none';"
+        />
+      </div>
+    </section>
+
+
+    <!-- CONTEXTO -->
+    <section class="cs-section">
+      <div class="container container--narrow">
+        <span class="section-label animate-on-scroll">Contexto</span>
+        <h2 class="cs-section-heading animate-on-scroll">El retiro en tienda como experiencia clave.</h2>
+        <p class="case-text animate-on-scroll">
+          El flujo de Pick Up cubre la experiencia del usuario desde que inicia un pedido móvil hasta que lo retira en tienda. Es un punto de contacto crítico donde la experiencia digital debe preparar y acompañar la experiencia física.
+        </p>
+        <p class="case-text animate-on-scroll">
+          El flujo de Pick Up es uno de los canales de compra con mayor crecimiento en la app: permite al usuario pedir desde el móvil y retirar en tienda sin esperar. El proyecto buscó diseñar un flujo que redujera la fricción desde la intención de compra hasta la confirmación del pedido.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- EL RETO -->
+    <section class="cs-section cs-section--alt">
+      <div class="container">
+        <div class="cs-two-col">
+          <div class="cs-two-col-text">
+            <span class="section-label animate-on-scroll">El reto</span>
+            <h2 class="cs-section-heading animate-on-scroll">Conectar la compra digital con el recojo en tienda</h2>
+            <p class="case-text animate-on-scroll">
+              La oportunidad estaba en conectar mejor la intención de compra digital con la experiencia real de recojo en tienda. El flujo debía ser claro, rápido y confiable, con feedback suficiente para que el usuario llegue a la tienda con certeza de que su pedido está listo.
+            </p>
+          </div>
+          <ul class="cs-friction-list animate-on-scroll">
+            <li class="cs-friction-item">
+              <span class="cs-friction-num">01</span>
+              <div><strong>Claridad en la selección de tienda.</strong> El usuario necesitaba entender rápidamente qué tiendas estaban disponibles, cuál era la más cercana y en qué horarios podía retirar su pedido.</div>
+            </li>
+            <li class="cs-friction-item">
+              <span class="cs-friction-num">02</span>
+              <div><strong>Configuración del carrito en contexto.</strong> El flujo de carrito debía ser intuitivo para pedidos con retiro, comunicando claramente el método de entrega elegido en cada paso.</div>
+            </li>
+            <li class="cs-friction-item">
+              <span class="cs-friction-num">03</span>
+              <div><strong>Confirmación y seguimiento claros.</strong> El usuario necesitaba saber con certeza que su pedido fue recibido y cuándo estaría listo para retirar, reduciendo la incertidumbre antes de llegar a la tienda.</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- PROCESO -->
+    <section class="cs-section">
+      <div class="container container--narrow">
+        <span class="section-label animate-on-scroll">Proceso</span>
+        <h2 class="cs-section-heading animate-on-scroll">Del análisis del flujo al diseño final</h2>
+        <p class="case-text animate-on-scroll">El proceso incluyó revisión del flujo existente, análisis de los puntos de mayor abandono y definición de los pasos críticos: selección de tienda, carrito, confirmación y seguimiento. Se iteró sobre las pantallas priorizando claridad y reducción de pasos innecesarios.</p>
+
+        <div class="callout animate-on-scroll">
+          <p class="callout-text">"Un buen flujo de Pick Up termina cuando el usuario recoge su pedido sin sorpresas — no cuando hace clic en 'Confirmar'."</p>
+        </div>
+
+        <p class="case-text animate-on-scroll">Las decisiones de diseño se revisaron con el equipo de producto considerando los estados de error, los mensajes de confirmación y los indicadores de progreso que reducen la incertidumbre del usuario antes de llegar a la tienda.</p>
+      </div>
+    </section>
+
+
+    <!-- DISEÑO + BANNER + MOCKUP -->
+    <section class="cs-section">
+      <div class="container container--narrow">
+        <span class="section-label animate-on-scroll">Diseño</span>
+        <h2 class="cs-section-heading animate-on-scroll">Pantallas del flujo</h2>
+        <p class="case-text animate-on-scroll">
+          Las decisiones de diseño priorizaron la claridad en cada paso del flujo: selección de tienda con información precisa, carrito con el método de retiro claramente visible y confirmación de pedido con feedback que reduce la incertidumbre. Cada pantalla se diseñó para que el usuario avance con confianza sin necesitar aclaraciones.
+        </p>
+      </div>
+
+      <!-- Banner interno -->
+      <div class="container">
+        <div class="case-banner animate-on-scroll">
+          <img
+            src="assets/projects/internal-banners/pickup-internal-banner.png"
+            alt="Pick Up — vista del diseño"
+            class="case-banner-img"
+            loading="lazy"
+            onerror="this.style.display='none';"
+          />
+        </div>
+      </div>
+
+      <!-- Mockup animado — flow + animation integrados -->
+      <div class="container">
+        <div class="phone-showcase-wrapper animate-on-scroll">
+          <div class="phone-mockup">
+            <div class="dynamic-island"></div>
+            <div class="phone-screen">
+              <div class="phone-slide">
+                <img src="assets/screenshots/pickup/flow/01-menu.png" alt="Menú" loading="lazy" onerror="this.parentElement.style.display='none';" />
+              </div>
+              <div class="phone-slide">
+                <img src="assets/screenshots/pickup/flow/02-lista-tiendas.png" alt="Lista de tiendas" loading="lazy" onerror="this.parentElement.style.display='none';" />
+              </div>
+              <div class="phone-slide">
+                <img src="assets/screenshots/pickup/flow/03-menu-cargando.png" alt="Menú cargando" loading="lazy" onerror="this.parentElement.style.display='none';" />
+              </div>
+              <div class="phone-slide">
+                <img src="assets/screenshots/pickup/flow/04-menu-productos.png" alt="Productos" loading="lazy" onerror="this.parentElement.style.display='none';" />
+              </div>
+              <div class="phone-slide">
+                <img src="assets/screenshots/pickup/flow/05-detalle-producto.png" alt="Detalle de producto" loading="lazy" onerror="this.parentElement.style.display='none';" />
+              </div>
+              <div class="phone-slide">
+                <img src="assets/screenshots/pickup/flow/06-agregar-carrito.png" alt="Agregar al carrito" loading="lazy" onerror="this.parentElement.style.display='none';" />
+              </div>
+              <div class="phone-slide">
+                <img src="assets/screenshots/pickup/flow/07-mensaje-carrito.png" alt="Mensaje carrito" loading="lazy" onerror="this.parentElement.style.display='none';" />
+              </div>
+              <div class="phone-slide">
+                <img src="assets/screenshots/pickup/flow/08-carrito.png" alt="Carrito" loading="lazy" onerror="this.parentElement.style.display='none';" />
+              </div>
+              <div class="phone-slide">
+                <img src="assets/screenshots/pickup/flow/09-opciones-retiro.png" alt="Opciones de retiro" loading="lazy" onerror="this.parentElement.style.display='none';" />
+              </div>
+              <div class="phone-slide">
+                <img src="assets/screenshots/pickup/flow/10-checkout.png" alt="Checkout" loading="lazy" onerror="this.parentElement.style.display='none';" />
+              </div>
+              <div class="phone-slide">
+                <img src="assets/screenshots/pickup/flow/11-confirmacion-loading.png" alt="Confirmando pedido" loading="lazy" onerror="this.parentElement.style.display='none';" />
+              </div>
+              <div class="phone-slide">
+                <img src="assets/screenshots/pickup/flow/12-confirmacion-final.png" alt="Pedido confirmado" loading="lazy" onerror="this.parentElement.style.display='none';" />
+              </div>
+              <div class="phone-slide">
+                <img src="assets/screenshots/pickup/animation/01-loading.png" alt="Loading state" loading="lazy" onerror="this.parentElement.style.display='none';" />
+              </div>
+              <div class="phone-slide">
+                <img src="assets/screenshots/pickup/animation/02-transicion-checkout.png" alt="Transición checkout" loading="lazy" onerror="this.parentElement.style.display='none';" />
+              </div>
+              <div class="phone-slide">
+                <img src="assets/screenshots/pickup/animation/03-confirmacion.png" alt="Confirmación animada" loading="lazy" onerror="this.parentElement.style.display='none';" />
+              </div>
+            </div>
+          </div>
+          <div class="phone-dots" role="tablist" aria-label="Navegar entre pantallas">
+            <button class="phone-dot" role="tab" aria-label="Pantalla 1"></button>
+            <button class="phone-dot" role="tab" aria-label="Pantalla 2"></button>
+            <button class="phone-dot" role="tab" aria-label="Pantalla 3"></button>
+            <button class="phone-dot" role="tab" aria-label="Pantalla 4"></button>
+            <button class="phone-dot" role="tab" aria-label="Pantalla 5"></button>
+            <button class="phone-dot" role="tab" aria-label="Pantalla 6"></button>
+            <button class="phone-dot" role="tab" aria-label="Pantalla 7"></button>
+            <button class="phone-dot" role="tab" aria-label="Pantalla 8"></button>
+            <button class="phone-dot" role="tab" aria-label="Pantalla 9"></button>
+            <button class="phone-dot" role="tab" aria-label="Pantalla 10"></button>
+            <button class="phone-dot" role="tab" aria-label="Pantalla 11"></button>
+            <button class="phone-dot" role="tab" aria-label="Pantalla 12"></button>
+            <button class="phone-dot" role="tab" aria-label="Pantalla 13"></button>
+            <button class="phone-dot" role="tab" aria-label="Pantalla 14"></button>
+            <button class="phone-dot" role="tab" aria-label="Pantalla 15"></button>
+          </div>
+          <p class="phone-screen-label" aria-live="polite" aria-atomic="true"></p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- IMPACTO -->
+    <section class="cs-section">
+      <div class="container container--narrow">
+        <span class="section-label animate-on-scroll">Impacto</span>
+        <h2 class="cs-section-heading animate-on-scroll">Resultados</h2>
+        <p class="case-text animate-on-scroll">El diseño buscó reducir la fricción en cada paso del flujo de Pick Up, priorizando claridad en la selección de tienda, el carrito y la confirmación de pedido.</p>
+
+        <div class="confidentiality-block animate-on-scroll">
+          <p class="confidentiality-label">Confidencialidad</p>
+          <p class="confidentiality-text">Por confidencialidad, los resultados cuantitativos y métricas específicas no se muestran en este portafolio. El caso se enfoca en el proceso, las decisiones de diseño y las métricas que se deberían observar para evaluar impacto.</p>
+          <div class="metrics-observed">
+            <p class="metrics-observed-label">Métricas a observar</p>
+            <div class="metric-observe-item">
+              <span class="metric-observe-dot" aria-hidden="true"></span>
+              <p class="metric-observe-text">Uso de la modalidad Pick Up y conversión del flujo de compra.</p>
+            </div>
+            <div class="metric-observe-item">
+              <span class="metric-observe-dot" aria-hidden="true"></span>
+              <p class="metric-observe-text">Drop-off por paso en el checkout y puntos de abandono.</p>
+            </div>
+            <div class="metric-observe-item">
+              <span class="metric-observe-dot" aria-hidden="true"></span>
+              <p class="metric-observe-text">Claridad percibida del flujo de recojo e incidencias en tienda asociadas al pedido móvil.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- APRENDIZAJES -->
+    <section class="cs-section cs-section--alt">
+      <div class="container container--narrow">
+        <span class="section-label animate-on-scroll">Reflexión</span>
+        <h2 class="cs-section-heading animate-on-scroll">Lo que me llevaría a futuro</h2>
+        <div class="cs-learnings animate-on-scroll">
+          <div class="cs-learning-item">
+            <span class="cs-learning-num">1</span>
+            <div>
+              <h3 class="cs-learning-title">El flujo digital prepara la experiencia física</h3>
+              <p class="case-text">Un buen diseño de Pick Up no termina en la confirmación de pedido. Las decisiones de UI — cómo se comunica el estado del pedido, qué información se da antes de llegar a la tienda — impactan directamente la experiencia presencial.</p>
+            </div>
+          </div>
+          <div class="cs-learning-item">
+            <span class="cs-learning-num">2</span>
+            <div>
+              <h3 class="cs-learning-title">Diseñar todos los estados del flujo</h3>
+              <p class="case-text">En e-commerce, cada estado — cargando, error, pedido en preparación, listo para retirar — necesita diseño explícito. Documentar todos los estados reduce ambigüedad en el handoff y asegura coherencia en la experiencia final.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- NAVEGACIÓN ENTRE CASOS -->
+    <section class="cs-section">
+      <div class="container">
+        <div class="case-nav">
+          <a href="case-rewards-mtr.html" class="case-nav-item">
+            <p class="case-nav-direction">&larr; Anterior</p>
+            <p class="case-nav-title">Rewards / Nuevo MTR</p>
+          </a>
+          <a href="case-nueva-home.html" class="case-nav-item case-nav-item--next">
+            <p class="case-nav-direction">Siguiente &rarr;</p>
+            <p class="case-nav-title">Nueva Home</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <p class="footer-brand">Miguel Vera</p>
+          <p class="footer-tagline">Product Designer Senior</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="index.html#proyectos" class="footer-link">Proyectos</a>
+          <a href="index.html#sobre-mi" class="footer-link">Sobre mí</a>
+          <a href="mailto:m.vera9107@gmail.com" class="footer-link">m.vera9107@gmail.com</a>
+          <a href="https://www.linkedin.com/in/miguel-vera-salazar-ux-product/" class="footer-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; <span id="current-year"></span> Miguel Vera. Todos los derechos reservados.</p>
+        <a href="mailto:m.vera9107@gmail.com" class="footer-copy" style="color:rgba(247,245,242,0.5);">m.vera9107@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="mobile-showcase.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

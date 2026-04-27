@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Reporte HTML — Case Study. Sistema de reporte semanal estandarizado en formato web para comunicación ejecutiva." />
+  <title>Reporte HTML — Miguel Vera</title>
+  <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body class="page-case">
+
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+        <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span><span></span><span></span>
+        </button>
+        <a href="index.html" class="header-logo" aria-label="Inicio">
+          <img src="assets/logo/personal-logo.png" alt="" onerror="this.style.display='none';" />
+          Miguel Vera
+        </a>
+        <nav class="site-nav" role="navigation" aria-label="Navegación principal">
+          <ul class="nav-links" role="list">
+            <li><a href="index.html#proyectos" class="nav-link active">Proyectos</a></li>
+            <li><a href="index.html#sobre-mi" class="nav-link">Sobre mí</a></li>
+          </ul>
+          <a href="mailto:m.vera9107@gmail.com" class="nav-cta">Contacto</a>
+        </nav>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" role="navigation" aria-label="Navegación móvil">
+      <a href="index.html#proyectos" class="nav-link">Proyectos</a>
+      <a href="index.html#sobre-mi" class="nav-link">Sobre mí</a>
+      <a href="mailto:m.vera9107@gmail.com" class="nav-link">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="cs-hero">
+      <div class="container">
+
+        <nav class="case-hero-breadcrumb animate-on-scroll" aria-label="Breadcrumb">
+          <a href="index.html">Inicio</a>
+          <span aria-hidden="true">›</span>
+          <a href="index.html#proyectos">Proyectos</a>
+          <span aria-hidden="true">›</span>
+          <span>Reporte HTML</span>
+        </nav>
+
+        <div class="cs-hero-layout">
+          <div class="cs-hero-text">
+            <span class="section-label animate-on-scroll delay-1">Reporting &middot; Comunicación ejecutiva</span>
+            <h1 class="cs-hero-title animate-on-scroll delay-2">
+              <em>Reporte</em> HTML
+            </h1>
+            <p class="cs-hero-intro animate-on-scroll delay-3">
+              Sistema de reporte semanal estandarizado en formato web. Una iniciativa de mejora operativa para comunicar avances de diseño de forma más eficiente, consistente y fácil de consumir por stakeholders.
+            </p>
+          </div>
+
+          <dl class="cs-meta animate-on-scroll delay-3">
+            <div class="cs-meta-item">
+              <dt>Rol</dt>
+              <dd>Product Designer Sr</dd>
+            </div>
+            <div class="cs-meta-item">
+              <dt>Categoría</dt>
+              <dd>Reporting</dd>
+            </div>
+            <div class="cs-meta-item">
+              <dt>Formato</dt>
+              <dd>HTML / Web</dd>
+            </div>
+            <div class="cs-meta-item">
+              <dt>Frecuencia</dt>
+              <dd>Semanal</dd>
+            </div>
+            <div class="cs-meta-item">
+              <dt>Período</dt>
+              <dd>2023 – 2025</dd>
+            </div>
+          </dl>
+        </div>
+
+      </div>
+
+      <div class="cs-cover animate-on-scroll">
+        <img
+          src="assets/projects/reporte-cover.png"
+          alt="Reporte HTML — portada del caso"
+          onerror="this.style.display='none';"
+        />
+      </div>
+    </section>
+
+
+    <!-- CONTEXTO -->
+    <section class="cs-section">
+      <div class="container container--narrow">
+        <span class="section-label animate-on-scroll">Contexto</span>
+        <h2 class="cs-section-heading animate-on-scroll">El problema de comunicar avances de diseño.</h2>
+        <p class="case-text animate-on-scroll">
+          En equipos de producto con múltiples proyectos en paralelo, comunicar avances de diseño a stakeholders no es trivial. Sin un formato estandarizado, cada reporte se construye desde cero: diferente estructura, diferente nivel de detalle, diferente formato visual.
+        </p>
+        <p class="case-text animate-on-scroll">
+          El resultado habitual: reportes inconsistentes, difíciles de comparar semana a semana, y que consumen tiempo de producción que podría dedicarse al diseño mismo.
+        </p>
+        <p class="case-text animate-on-scroll">
+          Este sistema surgió para resolver ese problema: un formato estandarizado, construido en HTML, que reduce el tiempo de producción del reporte y mejora la experiencia de lectura para quienes lo reciben semana a semana.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- EL RETO -->
+    <section class="cs-section cs-section--alt">
+      <div class="container">
+        <div class="cs-two-col">
+          <div class="cs-two-col-text">
+            <span class="section-label animate-on-scroll">El reto</span>
+            <h2 class="cs-section-heading animate-on-scroll">Sistematizar sin perder flexibilidad</h2>
+            <p class="case-text animate-on-scroll">
+              El desafío no era solo crear un template. Era crear un sistema que fuera fácil de completar, fácil de leer y que se mantuviera útil semana a semana sin volverse burocrático.
+            </p>
+          </div>
+          <ul class="cs-friction-list animate-on-scroll">
+            <li class="cs-friction-item">
+              <span class="cs-friction-num">01</span>
+              <div><strong>Inconsistencia de formatos.</strong> Cada semana el reporte se veía diferente. Sin estructura fija, los stakeholders tenían que re-aprender dónde buscar cada dato.</div>
+            </li>
+            <li class="cs-friction-item">
+              <span class="cs-friction-num">02</span>
+              <div><strong>Costo de producción alto.</strong> Construir un reporte desde cero cada semana tomaba tiempo que podría usarse mejor.</div>
+            </li>
+            <li class="cs-friction-item">
+              <span class="cs-friction-num">03</span>
+              <div><strong>Sin histórico accionable.</strong> Los reportes en formatos no estandarizados (slides, docs) son difíciles de comparar entre semanas y no permiten hacer seguimiento de hallazgos recurrentes o decisiones pendientes.</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ENFOQUE -->
+    <section class="cs-section">
+      <div class="container container--narrow">
+        <span class="section-label animate-on-scroll">Enfoque</span>
+        <h2 class="cs-section-heading animate-on-scroll">HTML como formato de reporte</h2>
+        <p class="case-text animate-on-scroll">
+          Usar HTML para los reportes permite aprovechar las capacidades del navegador: estructura semántica, estilos CSS reutilizables, acceso fácil desde cualquier dispositivo y generación de un histórico consultable.
+        </p>
+        <p class="case-text animate-on-scroll">
+          La estructura del reporte se definió a partir de las preguntas que los stakeholders hacen con mayor frecuencia: qué avanzó, qué está bloqueado, qué necesita atención. Cada sección del template responde directamente a una de esas preguntas, en el orden en que un lector ejecutivo las consumiría.
+        </p>
+      </div>
+
+      <div class="container">
+        <ol class="cs-principles animate-on-scroll">
+          <li class="cs-principle-item">
+            <span class="cs-principle-num">1</span>
+            <div>
+              <h3 class="cs-principle-title">Estandarización</h3>
+              <p class="case-text">Formato único y reutilizable con estructura fija. Los stakeholders saben exactamente dónde encontrar cada tipo de información.</p>
+            </div>
+          </li>
+          <li class="cs-principle-item">
+            <span class="cs-principle-num">2</span>
+            <div>
+              <h3 class="cs-principle-title">Lectura ejecutiva</h3>
+              <p class="case-text">Jerarquía visual clara que permite consumo rápido: resumen en los primeros bloques, detalle disponible debajo para quien lo necesite.</p>
+            </div>
+          </li>
+          <li class="cs-principle-item">
+            <span class="cs-principle-num">3</span>
+            <div>
+              <h3 class="cs-principle-title">Base para histórico</h3>
+              <p class="case-text">Cada reporte semanal forma parte de un histórico consultable. Los hallazgos e incidencias quedan registrados con fecha y contexto.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+
+    <!-- MUESTRA DEL REPORTE -->
+    <section class="cs-section cs-section--alt">
+      <div class="container container--narrow">
+        <span class="section-label animate-on-scroll">Muestra</span>
+        <h2 class="cs-section-heading animate-on-scroll">Reporte semanal: 13–19 Abril</h2>
+
+        <div class="report-brand-logo animate-on-scroll">
+          <img src="assets/logo/starbucks-logo.png" alt="Starbucks" onerror="this.style.display='none';" />
+        </div>
+
+        <p class="case-text animate-on-scroll">
+          El archivo de muestra disponible corresponde al reporte de la semana del 13 al 19 de Abril. El sistema de reportes fue desarrollado y utilizado entre 2023, 2024 y 2025.
+        </p>
+        <p class="case-text animate-on-scroll">
+          El reporte está disponible como archivo HTML autónomo que puede abrirse directamente en el navegador.
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="placeholder-block animate-on-scroll">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><polyline points="9 9 12 6 15 9"/><line x1="12" y1="6" x2="12" y2="18"/></svg>
+          Reporte HTML — 13 al 19 Abril
+          <a href="assets/screenshots/reportes-html/13 - 19 Abril.html" class="btn btn--outline" style="margin-top:var(--space-4);" target="_blank" rel="noopener noreferrer">
+            Abrir reporte <span class="btn-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- IMPACTO -->
+    <section class="cs-section">
+      <div class="container container--narrow">
+        <span class="section-label animate-on-scroll">Impacto</span>
+        <h2 class="cs-section-heading animate-on-scroll">Resultados de la iniciativa</h2>
+        <p class="case-text animate-on-scroll">El sistema estandarizó la comunicación de avances del equipo de diseño a stakeholders durante tres años consecutivos, reduciendo el tiempo de producción del reporte y mejorando la consistencia de la información semana a semana.</p>
+
+        <div class="confidentiality-block animate-on-scroll">
+          <p class="confidentiality-label">Confidencialidad</p>
+          <p class="confidentiality-text">Por confidencialidad, los datos específicos de uso y el feedback de stakeholders no se publican en este portafolio. El caso se enfoca en el proceso de diseño del sistema y el tipo de impacto que generó.</p>
+          <div class="metrics-observed">
+            <p class="metrics-observed-label">Tipo de impacto observado</p>
+            <div class="metric-observe-item">
+              <span class="metric-observe-dot" aria-hidden="true"></span>
+              <p class="metric-observe-text">Reducción del tiempo de producción del reporte semanal al eliminar la construcción desde cero cada semana.</p>
+            </div>
+            <div class="metric-observe-item">
+              <span class="metric-observe-dot" aria-hidden="true"></span>
+              <p class="metric-observe-text">Mejora en la consistencia y comparabilidad de reportes entre semanas para los stakeholders.</p>
+            </div>
+            <div class="metric-observe-item">
+              <span class="metric-observe-dot" aria-hidden="true"></span>
+              <p class="metric-observe-text">Generación de un histórico consultable de avances, bloqueos y decisiones del equipo de diseño.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- APRENDIZAJES -->
+    <section class="cs-section cs-section--alt">
+      <div class="container container--narrow">
+        <span class="section-label animate-on-scroll">Reflexión</span>
+        <h2 class="cs-section-heading animate-on-scroll">Lo que me llevaría a futuro</h2>
+        <div class="cs-learnings animate-on-scroll">
+          <div class="cs-learning-item">
+            <span class="cs-learning-num">1</span>
+            <div>
+              <h3 class="cs-learning-title">Estandarizar es liberar tiempo para lo que importa</h3>
+              <p class="case-text">Cuando un proceso repetitivo tiene una estructura definida, el esfuerzo cognitivo se desplaza del formato al contenido. Estandarizar el reporte no lo hizo menos valioso — lo hizo más eficiente y más fácil de mantener semana a semana sin que fuera una carga operativa.</p>
+            </div>
+          </div>
+          <div class="cs-learning-item">
+            <span class="cs-learning-num">2</span>
+            <div>
+              <h3 class="cs-learning-title">La consistencia construye credibilidad</h3>
+              <p class="case-text">Un reporte que se ve igual cada semana, con la misma estructura y el mismo nivel de detalle, genera confianza en quien lo lee. Los stakeholders aprenden dónde encontrar lo que necesitan y eso reduce la fricción en la comunicación de avances del equipo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- NAVEGACIÓN -->
+    <section class="cs-section">
+      <div class="container">
+        <div class="case-nav">
+          <a href="case-research-2024.html" class="case-nav-item">
+            <p class="case-nav-direction">&larr; Anterior</p>
+            <p class="case-nav-title">Investigación estratégica 2024</p>
+          </a>
+          <a href="index.html#proyectos" class="case-nav-item case-nav-item--next">
+            <p class="case-nav-direction">Todos los proyectos &rarr;</p>
+            <p class="case-nav-title">Ver portafolio</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <p class="footer-brand">Miguel Vera</p>
+          <p class="footer-tagline">Product Designer Senior</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="index.html#proyectos" class="footer-link">Proyectos</a>
+          <a href="index.html#sobre-mi" class="footer-link">Sobre mí</a>
+          <a href="mailto:m.vera9107@gmail.com" class="footer-link">m.vera9107@gmail.com</a>
+          <a href="https://www.linkedin.com/in/miguel-vera-salazar-ux-product/" class="footer-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; <span id="current-year"></span> Miguel Vera. Todos los derechos reservados.</p>
+        <a href="mailto:m.vera9107@gmail.com" class="footer-copy" style="color:rgba(247,245,242,0.5);">m.vera9107@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

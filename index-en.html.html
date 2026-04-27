@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ============================================================
+       META & SEO — REEMPLAZAR: tu nombre, descripcion y URL canónica
+       ============================================================ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Miguel Vera — Senior Product Designer. Bridging research, strategy, and design to create meaningful digital products." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph — REEMPLAZAR: og:url, og:image -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Miguel Vera — Senior Product Designer" />
+  <meta property="og:description" content="Bridging research, strategy, and design to create meaningful digital products." />
+  <meta property="og:url" content="https://[TU-DOMINIO].com" />
+  <meta property="og:image" content="assets/projects/starbucks-rewards-cover.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Miguel Vera — Senior Product Designer" />
+
+  <!-- REEMPLAZAR: título de la pestaña -->
+  <title>[TU NOMBRE] — Senior Product Designer</title>
+
+  <!-- REEMPLAZAR: favicon -->
+  <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Preconnect para Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body class="page-home">
+
+  <!-- ============================================================
+       HEADER — REEMPLAZAR: tu nombre / logo
+       ============================================================ -->
+<header class="site-header" role="banner">
+  <div class="container">
+    <div class="header-inner">
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <a href="index.html" class="header-logo" aria-label="Inicio">
+        Miguel Vera
+      </a>
+
+      <nav class="site-nav" role="navigation" aria-label="Navegación principal">
+        <ul class="nav-links" role="list">
+          <li><a href="work.html" class="nav-link">Proyectos</a></li>
+          <li><a href="resume.html" class="nav-link">Resumen</a></li>
+        </ul>
+        <a href="contact.html" class="nav-cta">Contacto</a>
+      </nav>
+
+      <div class="mobile-right">
+        <a href="resume.html" class="mobile-resume-link">Resumen</a>
+        <a href="index.html" class="lang-link active">ES</a>
+        <a href="index-en.html" class="lang-link">EN</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO
+         REEMPLAZAR: hero title, subtitle, CTA links
+         ============================================================ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+
+        <!-- Eyebrow -->
+        <div class="hero-eyebrow">
+          <span class="hero-eyebrow-line" aria-hidden="true"></span>
+          <!-- REEMPLAZAR: tu rol y ubicación -->
+          <span class="hero-eyebrow-text">Senior Product Designer &mdash; [CIUDAD, PAIS]</span>
+        </div>
+
+        <!-- REEMPLAZAR: hero title -->
+        <h1 class="hero-title" id="hero-title">
+          Design that works<br />for <em>people</em><br />and business.
+        </h1>
+
+        <!-- REEMPLAZAR: hero subtitle -->
+        <p class="hero-subtitle">
+          I design digital products grounded in research, shaped by data, and measured by real impact &mdash; currently focused on e-commerce and loyalty experiences at Starbucks.
+        </p>
+
+        <!-- CTAs -->
+        <div class="hero-actions">
+          <a href="work.html" class="btn btn--primary">
+            View Work
+            <span class="btn-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+          <a href="contact.html" class="btn btn--outline">Get in Touch</a>
+        </div>
+
+        <!-- Stats / métricas breves — REEMPLAZAR: métricas -->
+        <div class="hero-meta" role="list">
+          <div class="hero-meta-item" role="listitem">
+            <!-- REEMPLAZAR: años de experiencia -->
+            <span class="hero-meta-value">8+</span>
+            <span class="hero-meta-label">Years of experience</span>
+          </div>
+          <div class="hero-meta-divider" aria-hidden="true"></div>
+          <div class="hero-meta-item" role="listitem">
+            <!-- REEMPLAZAR: empresa actual -->
+            <span class="hero-meta-value">Starbucks</span>
+            <span class="hero-meta-label">Current company</span>
+          </div>
+          <div class="hero-meta-divider" aria-hidden="true"></div>
+          <div class="hero-meta-item" role="listitem">
+            <!-- REEMPLAZAR: especialidad -->
+            <span class="hero-meta-value">UX &amp; Strategy</span>
+            <span class="hero-meta-label">Focus area</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FEATURED WORK
+         ============================================================ -->
+    <section class="section" aria-labelledby="featured-title">
+      <div class="container">
+
+        <div class="section-header animate-on-scroll">
+          <div>
+            <p class="section-label">Featured Case Study</p>
+            <h2 class="section-title" id="featured-title">
+              The work that<br />matters most.
+            </h2>
+          </div>
+          <a href="work.html" class="btn btn--ghost">
+            All work <span class="btn-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+
+        <!-- CARD: Caso principal — REEMPLAZAR: project cover image, title, description -->
+        <article class="featured-case animate-on-scroll delay-1">
+          <div class="featured-case-image">
+            <!-- REEMPLAZAR: project cover — assets/projects/starbucks-rewards-cover.jpg -->
+            <!-- Dimensiones recomendadas: 1200 x 900 px, ratio 4:3 -->
+            <img
+              src="assets/projects/starbucks-rewards-cover.jpg"
+              alt="Starbucks Rewards Redesign — cover image"
+              loading="lazy"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+            />
+            <div class="img-placeholder" aria-hidden="true">
+              <!-- SVG icono simple -->
+              <svg class="img-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <circle cx="8.5" cy="8.5" r="1.5"/>
+                <polyline points="21 15 16 10 5 21"/>
+              </svg>
+              Project Cover — 1200 x 900px
+            </div>
+          </div>
+
+          <div class="featured-case-content">
+            <!-- Tags -->
+            <div class="case-tags">
+              <span class="tag tag--accent">Featured</span>
+              <span class="tag">UX Strategy</span>
+              <span class="tag">Research</span>
+              <span class="tag">Loyalty</span>
+            </div>
+
+            <!-- REEMPLAZAR: case study title -->
+            <h3 class="case-title">Starbucks Rewards Redesign</h3>
+
+            <!-- REEMPLAZAR: case description -->
+            <p class="case-description">
+              A full redesign of the Starbucks loyalty experience &mdash; from discovery through to delivery. Grounded in behavioral research, shaped by A/B testing, and measured by engagement and redemption rates across millions of users.
+            </p>
+
+            <!-- Meta del proyecto -->
+            <div class="case-meta">
+              <div class="case-meta-item">
+                <span class="case-meta-label">Company</span>
+                <!-- REEMPLAZAR: empresa -->
+                <span class="case-meta-value">Starbucks</span>
+              </div>
+              <div class="case-meta-item">
+                <span class="case-meta-label">Year</span>
+                <!-- REEMPLAZAR: año -->
+                <span class="case-meta-value">2023 &ndash; 2024</span>
+              </div>
+              <div class="case-meta-item">
+                <span class="case-meta-label">Role</span>
+                <!-- REEMPLAZAR: rol -->
+                <span class="case-meta-value">Lead Product Designer</span>
+              </div>
+            </div>
+
+            <!-- CTA -->
+            <a href="starbucks-casestudy.html" class="btn btn--primary">
+              Read Case Study
+              <span class="btn-arrow" aria-hidden="true">&rarr;</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- ============================================================
+             SELECTED PROJECTS — Grid secundario
+             ============================================================ -->
+        <div class="section-header animate-on-scroll" style="margin-top: var(--space-24);">
+          <p class="section-label">Selected Projects</p>
+        </div>
+
+        <div class="projects-grid" data-stagger="true">
+
+          <!-- CARD: Starbucks Home Redesign -->
+          <!-- REEMPLAZAR: project cover — assets/projects/starbucks-home-cover.jpg -->
+          <article class="project-card">
+            <div class="project-card-image">
+              <img
+                src="assets/projects/starbucks-home-cover.jpg"
+                alt="Starbucks Home Redesign — cover image"
+                loading="lazy"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              />
+              <div class="img-placeholder" aria-hidden="true">
+                <svg class="img-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                  <rect x="3" y="3" width="18" height="18" rx="2"/>
+                  <circle cx="8.5" cy="8.5" r="1.5"/>
+                  <polyline points="21 15 16 10 5 21"/>
+                </svg>
+                Project Cover — 1600 x 900px
+              </div>
+            </div>
+            <div class="project-card-content">
+              <div class="project-card-tags">
+                <span class="tag">UX Design</span>
+                <span class="tag">E-commerce</span>
+              </div>
+              <!-- REEMPLAZAR: titulo del proyecto -->
+              <h3 class="project-card-title">Starbucks Home Redesign</h3>
+              <!-- REEMPLAZAR: descripcion corta -->
+              <p class="project-card-desc">
+                Redefining the app home screen to prioritize personalization, surface relevant rewards, and reduce friction in the ordering journey.
+              </p>
+              <a href="work.html#home-redesign" class="btn btn--ghost">
+                View Initiative <span class="btn-arrow" aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD: Starbucks PDP Redesign -->
+          <!-- REEMPLAZAR: project cover — assets/projects/starbucks-pdp-cover.jpg -->
+          <article class="project-card">
+            <div class="project-card-image">
+              <img
+                src="assets/projects/starbucks-pdp-cover.jpg"
+                alt="Starbucks PDP Redesign — cover image"
+                loading="lazy"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              />
+              <div class="img-placeholder" aria-hidden="true">
+                <svg class="img-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                  <rect x="3" y="3" width="18" height="18" rx="2"/>
+                  <circle cx="8.5" cy="8.5" r="1.5"/>
+                  <polyline points="21 15 16 10 5 21"/>
+                </svg>
+                Project Cover — 1600 x 900px
+              </div>
+            </div>
+            <div class="project-card-content">
+              <div class="project-card-tags">
+                <span class="tag">Conversion</span>
+                <span class="tag">UX Audit</span>
+              </div>
+              <!-- REEMPLAZAR: titulo del proyecto -->
+              <h3 class="project-card-title">Starbucks PDP Redesign</h3>
+              <!-- REEMPLAZAR: descripcion corta -->
+              <p class="project-card-desc">
+                Improving the product detail page to increase add-to-cart rate through clearer hierarchy, stronger CTAs, and reduced cognitive load.
+              </p>
+              <a href="work.html#pdp-redesign" class="btn btn--ghost">
+                View Initiative <span class="btn-arrow" aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTRIBUTIONS — Sección rápida
+         ============================================================ -->
+    <section class="contributions-section" aria-labelledby="contributions-title">
+      <div class="container">
+
+        <div class="animate-on-scroll">
+          <p class="section-label">Additional Contributions</p>
+          <h2 class="section-title" id="contributions-title" style="margin-top: var(--space-3);">
+            Depth beyond<br />the headline work.
+          </h2>
+          <p style="font-size: var(--text-sm); color: var(--color-muted); max-width: 460px; margin-top: var(--space-4); font-weight: 300; line-height: 1.7;">
+            Alongside major initiatives, I contribute to tactical improvements, experimentation, and system-level work that compound over time.
+          </p>
+        </div>
+
+        <div class="contributions-grid" data-stagger="true">
+
+          <!-- REEMPLAZAR: contribuciones — nombre y descripcion -->
+          <div class="contribution-item">
+            <div class="contribution-number">01</div>
+            <h3 class="contribution-title">Checkout Optimization</h3>
+            <p class="contribution-desc">Identified and resolved key drop-off points in the checkout funnel through session analysis and targeted design changes.</p>
+          </div>
+
+          <div class="contribution-item">
+            <div class="contribution-number">02</div>
+            <h3 class="contribution-title">Pickup Flow Improvements</h3>
+            <p class="contribution-desc">Redesigned the in-store pickup experience to reduce confusion and improve time-to-completion for mobile orders.</p>
+          </div>
+
+          <div class="contribution-item">
+            <div class="contribution-number">03</div>
+            <h3 class="contribution-title">Rewards Modules</h3>
+            <p class="contribution-desc">Designed modular components for displaying loyalty points, tier progress, and reward redemption across multiple surfaces.</p>
+          </div>
+
+          <div class="contribution-item">
+            <div class="contribution-number">04</div>
+            <h3 class="contribution-title">Experimentation &amp; A/B Testing</h3>
+            <p class="contribution-desc">Partnered with data science to design and validate experiments, translating results into informed product decisions.</p>
+          </div>
+
+          <div class="contribution-item">
+            <div class="contribution-number">05</div>
+            <h3 class="contribution-title">Design System Contributions</h3>
+            <p class="contribution-desc">Audited and extended the component library to ensure consistency, accessibility, and scalability across the app ecosystem.</p>
+          </div>
+
+        </div>
+
+        <div style="margin-top: var(--space-12);" class="animate-on-scroll">
+          <a href="work.html#contributions" class="btn btn--outline">
+            See all contributions <span class="btn-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT / BIO breve
+         ============================================================ -->
+    <section class="section" aria-labelledby="about-title">
+      <div class="container container--narrow">
+        <div class="animate-on-scroll">
+          <p class="section-label">About</p>
+          <h2 class="section-title" id="about-title" style="margin-top: var(--space-3); margin-bottom: var(--space-8);">
+            Strategy first.<br />Design second.<br /><em>Always measured.</em>
+          </h2>
+          <!-- REEMPLAZAR: bio corta -->
+          <p style="font-size: var(--text-md); color: var(--color-ink-light); line-height: 1.8; font-weight: 300; margin-bottom: var(--space-6);">
+            I am a Senior Product Designer with [X] years of experience designing digital products that balance user needs with business goals. At Starbucks, I work cross-functionally with Product, Engineering, and Data Science to improve loyalty, e-commerce, and the end-to-end ordering experience.
+          </p>
+          <p style="font-size: var(--text-md); color: var(--color-ink-light); line-height: 1.8; font-weight: 300; margin-bottom: var(--space-10);">
+            My process starts with research and ends with measurement. I believe good design is invisible &mdash; it removes friction, builds trust, and creates moments that keep people coming back.
+          </p>
+          <div style="display: flex; gap: var(--space-4); flex-wrap: wrap;">
+            <a href="resume.html" class="btn btn--outline">View Resume</a>
+            <a href="contact.html" class="btn btn--ghost">
+              Let&rsquo;s talk <span class="btn-arrow" aria-hidden="true">&rarr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER — REEMPLAZAR: nombre, links, email, linkedin
+       ============================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <!-- REEMPLAZAR: nombre -->
+          <p class="footer-brand">[TU NOMBRE]</p>
+          <p class="footer-tagline">Senior Product Designer</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="work.html" class="footer-link">Work</a>
+          <a href="resume.html" class="footer-link">Resume</a>
+          <a href="contact.html" class="footer-link">Contact</a>
+          <!-- REEMPLAZAR: linkedin url -->
+          <a href="https://linkedin.com/in/[TU-LINKEDIN]" class="footer-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <!-- REEMPLAZAR: behance/dribbble url (opcional) -->
+          <a href="https://behance.net/[TU-BEHANCE]" class="footer-link" target="_blank" rel="noopener noreferrer">Behance</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <!-- REEMPLAZAR: nombre -->
+        <p class="footer-copy">&copy; <span id="current-year"></span> [TU NOMBRE]. All rights reserved.</p>
+        <!-- REEMPLAZAR: email -->
+        <a href="mailto:[TU EMAIL]" class="footer-copy" style="color: rgba(247,245,242,0.5); transition: color 0.3s ease;">[TU EMAIL]</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
